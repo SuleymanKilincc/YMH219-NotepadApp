@@ -215,7 +215,12 @@ namespace NotepadApp
             }
 
             NotuGoster(tiklanan);
-            ListeyiYenile(tiklanan);
+
+            // Önceki not kaydedildiyse liste yeniden çizilmiş ve seçim kaymış olabilir.
+            if (lstNotlar.SelectedItem != tiklanan)
+            {
+                ListeyiYenile(tiklanan);
+            }
         }
 
         // ---------------------------------------------------------------
