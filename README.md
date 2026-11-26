@@ -84,4 +84,4 @@ NotepadApp/
 ## Öğrenci
 
 - **Ad Soyad:** Süleyman Kılınç
-- **Öğrenci No:** _(eklenecek)_
+- **Öğrenci No:** 250541031
